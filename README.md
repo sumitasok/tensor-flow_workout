@@ -55,3 +55,5 @@ session.run(tf.global_variables_initializer())
 > is required for initializing all the variables.
 
 tf.zeros(shape)
+
+softmax activation function.
