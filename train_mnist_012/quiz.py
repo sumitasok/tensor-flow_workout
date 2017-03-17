@@ -42,4 +42,7 @@ def linear(input, w, b):
     return linear
 
 def softmax(logits):
+    # logits_data = [1.0, 2.0, 3.0]
+    # logits = tf.placeholder(tf.float32)
+    # session.run(tf.nn.softmax(logits), feed_dict={logits: logits_data})
     return np.exp(logits)/np.sum(np.exp(logits), axis=0)
