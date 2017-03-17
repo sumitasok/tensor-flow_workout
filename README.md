@@ -34,12 +34,24 @@ b'Hello World!'
   - tf.int32
   - tf.float32
 
-  math
+math
 
    - tf.add(1,2)
    - tf.substract(1,2)
    - tf.multiply(1,2)
 
-  type cast
+type cast
 
-   - tf.cast(tf.constant(2.2), tf.int32)
+	- tf.cast(tf.constant(2.2), tf.int32)
+
+tf.Variable
+
+	> This can be modified as opposed to tf.Constant and tf.Placeholder
+
+tf.truncated_normal(x, y)
+
+session.run(tf.global_variables_initializer())
+
+> is required for initializing all the variables.
+
+tf.zeros(shape)
