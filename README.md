@@ -33,3 +33,13 @@ b'Hello World!'
   - tf.strnig
   - tf.int32
   - tf.float32
+
+  math
+
+   - tf.add(1,2)
+   - tf.substract(1,2)
+   - tf.multiply(1,2)
+
+  type cast
+
+   - tf.cast(tf.constant(2.2), tf.int32)
